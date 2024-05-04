@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h3 {
+    @apply mb-8 text-4xl max-w-3xl font-bold md:text-5xl text-darkGrayishBlue mx-auto;
+  }
+  h5 {
+    @apply text-2xl mx-auto text-darkGrayishBlue font-semibold mb-2;
+  }
+}
+
+.section-container {
+  @apply max-w-6xl text-center mx-auto;
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
